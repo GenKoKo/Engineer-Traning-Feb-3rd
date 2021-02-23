@@ -79,6 +79,12 @@
 
             }
 
+            photo{
+                display: flex;
+                flex-wrap: wrap;
+                /* justify-content: center; */
+            }
+
             .box{
                  width:250px;
                  /* height: 250px; */
@@ -86,7 +92,8 @@
                  margin:10px;
                  /* background-color: rgb(161, 111, 111); */
                  display: inline-block;
-                 position: relative;
+                 flex:none;
+
 
             }
 
@@ -148,47 +155,50 @@
     </header>
 
     <body>
+        <main>
+            <div class="welcome">
+                Welcome to the World
+            </div>
+        </main>
 
-        <div class="welcome">
-            Welcome to the World
-        </div>
 
-        <div class="content">
-            <div class="box">
-                <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_greece.png" width: 250px;/>
-                <div class="title">Greece</div>
-            </div>
-            <div class="box">
-                <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_eygpt.png" width: 250px;/>
-                <div class="title">Eygpt</div>
-            </div>
-            <div class="box">
-                <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_norway.png" width: 250px;/>
-                <div class="title">Norway</div>
-            </div>
-            <div class="box">
-                <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_america.png" width: 250px;/>
-                <div class="title">America</div>
-            </div>
-            <div class="box">
-                <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_australia.png" />
-                <div class="title">Australia</div>
-            </div>
-            <div class="box">
-                <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_india.png" />
-                <div class="title">India</div>
-            </div>
-            <div class="box">
-                <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_korea.png" />
-                <div class="title">Korea</div>
-            </div>
-            <div class="box">
-                <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_belguim.png" />
-                <div class="title">Belguim</div>
-            </div>
+        <photo>
+            <div class="content">
+                <div class="box">
+                    <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_greece.png"/>
+                    <div class="title">Greece</div>
+                </div>
+                <div class="box">
+                    <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_eygpt.png" />
+                    <div class="title">Eygpt</div>
+                </div>
+                <div class="box">
+                    <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_norway.png" />
+                    <div class="title">Norway</div>
+                </div>
+                <div class="box">
+                    <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_america.png" />
+                    <div class="title">America</div>
+                </div>
+                <div class="box">
+                    <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_australia.png" />
+                    <div class="title">Australia</div>
+                </div>
+                <div class="box">
+                    <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_india.png" />
+                    <div class="title">India</div>
+                </div>
+                <div class="box">
+                    <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_korea.png" />
+                    <div class="title">Korea</div>
+                </div>
+                <div class="box">
+                    <img src="https://genkoko.github.io/Engineer-Traning-Feb-3rd/flag_belguim.png" />
+                    <div class="title">Belguim</div>
+                </div>
 
-        </div>
-
+            </div>
+        </photo>
     </body>
 
     
